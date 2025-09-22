@@ -1,0 +1,54 @@
+{
+  "name": "naebak-admin-dashboard",
+  "version": "1.0.0",
+  "description": "لوحة التحكم الاحترافية - نائبك.كوم | Professional Admin Dashboard for Naebak.com Platform",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.8",
+    "@heroicons/react": "^2.2.0",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.12.2",
+    "chart.js": "^4.5.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "^15.5.3",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.18",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^15.5.3"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "admin-dashboard",
+    "naebak",
+    "egypt"
+  ],
+  "author": "Naebak Team <dev@naebak.com>",
+  "license": "MIT",
+  "homepage": "https://naebak.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alcounsol17/naebak-admin-dashboard.git"
+  }
+}
