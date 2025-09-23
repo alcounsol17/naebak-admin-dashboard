@@ -8,11 +8,22 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage --watchAll=false",
+    "audit:security": "audit-ci --moderate",
+    "lighthouse": "lhci autorun",
+    "docker:build": "docker build -t naebak-admin-dashboard .",
+    "docker:run": "docker run -p 3000:3000 naebak-admin-dashboard",
+    "docker:dev": "docker-compose --profile dev up",
+    "docker:prod": "docker-compose up"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.8",
     "@heroicons/react": "^2.2.0",
+    "@tailwindcss/postcss": "^4.1.13",
     "@types/node": "^24.5.2",
     "@types/react": "^19.1.13",
     "@types/react-dom": "^19.1.9",
@@ -30,10 +41,17 @@
     "typescript": "^5.9.2"
   },
   "devDependencies": {
+    "@lhci/cli": "^0.15.1",
     "@tailwindcss/forms": "^0.5.10",
     "@tailwindcss/typography": "^0.5.18",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "audit-ci": "^7.1.0",
     "eslint": "^9.36.0",
-    "eslint-config-next": "^15.5.3"
+    "eslint-config-next": "^15.5.3",
+    "jest": "^30.1.3",
+    "jest-environment-jsdom": "^30.1.2"
   },
   "keywords": [
     "nextjs",

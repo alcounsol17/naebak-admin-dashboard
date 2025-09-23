@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1758656994259" clover="3.2.0">
+  <project timestamp="1758656994259" name="All files">
+    <metrics statements="21" coveredstatements="19" conditionals="7" coveredconditionals="6" methods="11" coveredmethods="10" elements="39" coveredelements="35" complexity="0" loc="21" ncloc="21" packages="1" files="1" classes="1"/>
+    <file name="page.tsx" path="/home/ubuntu/naebak-admin-dashboard/app/page.tsx">
+      <metrics statements="21" coveredstatements="19" conditionals="7" coveredconditionals="6" methods="11" coveredmethods="10"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="33" count="76" type="stmt"/>
+      <line num="72" count="2" type="stmt"/>
+      <line num="78" count="228" type="stmt"/>
+      <line num="95" count="2" type="stmt"/>
+      <line num="96" count="19" type="stmt"/>
+      <line num="104" count="19" type="stmt"/>
+      <line num="105" count="95" type="stmt"/>
+      <line num="115" count="19" type="stmt"/>
+      <line num="116" count="95" type="cond" truecount="0" falsecount="1"/>
+      <line num="120" count="0" type="stmt"/>
+      <line num="129" count="95" type="stmt"/>
+      <line num="150" count="19" type="stmt"/>
+      <line num="151" count="19" type="stmt"/>
+      <line num="153" count="19" type="stmt"/>
+      <line num="154" count="19" type="stmt"/>
+      <line num="155" count="0" type="stmt"/>
+      <line num="158" count="19" type="stmt"/>
+    </file>
+  </project>
+</coverage>
